@@ -1,5 +1,3 @@
-console.log("Task 9");
-
 const color_button = document.querySelector(".change-color");
 const span_color = document.querySelector(".color");
 
@@ -14,7 +12,3 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-
-console.log(
-  "-------------------------------------------------------------------------------"
-);

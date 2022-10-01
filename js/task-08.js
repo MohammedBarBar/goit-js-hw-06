@@ -1,5 +1,3 @@
-console.log("Task 8");
-
 const form = document.querySelector(".login-form");
 
 form.addEventListener("submit", handleSubmit);
@@ -21,7 +19,3 @@ function handleSubmit(event) {
   //   console.log(`Login: ${email.value}, Password: ${password.value}`);
   event.currentTarget.reset();
 }
-
-console.log(
-  "-------------------------------------------------------------------------------"
-);

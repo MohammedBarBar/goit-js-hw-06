@@ -1,5 +1,3 @@
-console.log("Task 6");
-
 const textInput_lenght = document.querySelector("#validation-input");
 textInput_lenght.addEventListener("blur", () => {
   //   console.log(textInput_lenght.value.length);
@@ -8,7 +6,3 @@ textInput_lenght.addEventListener("blur", () => {
     textInput_lenght.classList.add("valid");
   } else textInput_lenght.classList.add("invalid");
 });
-
-console.log(
-  "-------------------------------------------------------------------------------"
-);

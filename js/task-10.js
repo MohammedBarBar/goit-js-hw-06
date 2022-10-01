@@ -1,5 +1,3 @@
-console.log("Task 10");
-
 const boxes = document.querySelector("#boxes");
 boxes.style.backgroundColor = getRandomHexColor();
 const NumberOfBox = document.querySelector("#controls > input");

@@ -1,5 +1,3 @@
-console.log("Task 2");
-
 const ingredients = [
   "Potatoes",
   "Mushrooms",
@@ -14,10 +12,7 @@ const list = document.querySelector("#ingredients");
 const markup = ingredients.forEach((element) => {
   const item = document.createElement("li");
   item.textContent = element;
-  console.log(item.textContent);
+  // console.log(item.textContent);
   item.classList.add("item");
   list.append(item);
 });
-console.log(
-  "-------------------------------------------------------------------------------"
-);

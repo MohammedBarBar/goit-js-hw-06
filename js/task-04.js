@@ -1,4 +1,3 @@
-console.log("Task 4");
 const increment = document.querySelector('button[data-action="increment"]');
 const decrement = document.querySelector('button[data-action="decrement"]');
 const value = document.querySelector("#value");
@@ -13,7 +12,3 @@ decrement.addEventListener("click", () => {
   counterValue--;
   value.textContent = counterValue;
 });
-
-console.log(
-  "-------------------------------------------------------------------------------"
-);

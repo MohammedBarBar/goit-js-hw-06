@@ -1,5 +1,3 @@
-console.log("Task 3");
-
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
@@ -22,7 +20,3 @@ const image_item = images
   )
   .join("");
 gallery.insertAdjacentHTML("beforeend", image_item);
-
-console.log(
-  "-------------------------------------------------------------------------------"
-);
